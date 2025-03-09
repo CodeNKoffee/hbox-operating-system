@@ -22,7 +22,7 @@ This project demonstrates different thread scheduling policies in a POSIX-compli
 
 ## Project Structure
 
-```
+```text
 MS_01_Team_m/
 ├── CMakeLists.txt
 ├── src/
@@ -68,17 +68,20 @@ Note: Running with SCHED_RR scheduling policy may require root privileges on som
 The program collects and reports the following performance metrics for each thread:
 
 ### Time Metrics
+
 - **Wait Time**: Time between thread creation and the start of execution
 - **Response Time**: Time between thread creation and the first response
 - **Turnaround Time**: Total time from thread creation to completion
 
 ### CPU Metrics
+
 - **CPU Time (User)**: Time spent executing user code
 - **CPU Time (System)**: Time spent executing system code
 - **CPU Utilization**: Percentage of time spent on CPU
 - **CPU Useful Work**: Percentage of CPU time spent on user code vs system code
 
 ### Memory Metrics
+
 - **Memory Usage**: Memory consumption in KB
 - **Peak Memory Usage**: Maximum memory consumption in KB
 
