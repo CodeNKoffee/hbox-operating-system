@@ -23,17 +23,20 @@ This report documents the performance comparison of different thread scheduling 
 The following metrics were collected for each thread under both scheduling policies:
 
 ### Time Metrics
+
 1. **Wait Time**: Time between thread creation and the start of execution.
 2. **Response Time**: Time between thread creation and the first response.
 3. **Turnaround Time**: Total time from thread creation to completion.
 
 ### CPU Metrics
+
 4. **CPU Time (User)**: Time spent executing user code.
 5. **CPU Time (System)**: Time spent executing system code.
 6. **CPU Utilization**: Percentage of time spent on CPU.
 7. **CPU Useful Work**: Percentage of CPU time spent on user code vs system code.
 
 ### Memory Metrics
+
 8. **Memory Usage**: Memory consumption in KB.
 9. **Peak Memory Usage**: Maximum memory consumption in KB.
 
@@ -131,6 +134,7 @@ In summary, this experiment demonstrates that thread scheduling policies can sig
 To run the experiment and generate the performance metrics:
 
 1. Build the project using CMake:
+
    ```bash
    mkdir build
    cd build
@@ -139,6 +143,7 @@ To run the experiment and generate the performance metrics:
    ```
 
 2. Run the scheduler program:
+
    ```bash
    ./scheduler
    ```
