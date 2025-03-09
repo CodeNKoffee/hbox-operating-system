@@ -1,0 +1,3 @@
+/Users/hatem/University/sp_25/CSEN602/Project/hbox-os/build/CMakeFiles/scheduler.dir
+/Users/hatem/University/sp_25/CSEN602/Project/hbox-os/build/CMakeFiles/edit_cache.dir
+/Users/hatem/University/sp_25/CSEN602/Project/hbox-os/build/CMakeFiles/rebuild_cache.dir
