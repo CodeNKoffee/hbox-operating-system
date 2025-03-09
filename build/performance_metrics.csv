@@ -1,0 +1,7 @@
+Scheduler,Thread,Wait Time (ms),Response Time (ms),Turnaround Time (ms),CPU Time User (ms),CPU Time System (ms),CPU Utilization (%),CPU Useful Work (%),Memory Usage (KB),Peak Memory (KB)
+SCHED_OTHER (Default),1,0.04,0.04,16527.21,0.08,0.33,0.00,20.39,1179648,1179648
+SCHED_OTHER (Default),2,0.08,0.08,2009.79,0.03,0.13,0.01,20.62,1163264,1163264
+SCHED_OTHER (Default),3,0.08,0.08,16527.31,0.10,0.37,0.00,22.25,1179648,1179648
+SCHED_RR (Round Robin),1,0.04,0.04,0.09,0.03,0.10,238.46,20.16,1294336,1294336
+SCHED_RR (Round Robin),2,0.05,0.05,2002.24,0.08,0.26,0.02,23.82,1310720,1310720
+SCHED_RR (Round Robin),3,0.10,0.10,14740.90,0.10,0.33,0.00,22.88,1310720,1310720
